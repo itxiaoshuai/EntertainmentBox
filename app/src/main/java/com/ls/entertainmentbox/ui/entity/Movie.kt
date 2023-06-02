@@ -1,6 +1,16 @@
 package com.ls.entertainmentbox.ui.entity
 
-data class Video(
+import me.hgj.mvvmhelper.entity.BasePage
+
+/**
+ * All Rights Reserved , Designed By xs Company
+ * @version
+ * @description:
+ * @author: 罗帅
+ * @create: 2023-06-02
+ */
+data class Movie(
+
     var videoId: String,
     var title: String,
     var director: String,
@@ -12,6 +22,8 @@ data class Video(
     var releaseTime: String,
     var updateTime: String,
 
+
+    var chapterList: ArrayList<MovieChapter>
 )
 
 
