@@ -17,19 +17,19 @@ class MainActivity : BaseActivity<MainViewModel, ActivityMainBinding>() {
         //禁止滑动
         mBind.mainViewPager.isUserInputEnabled = false
         //设置底部导航栏选择事件
-//        mBind.mainNavigation.setOnItemSelectedListener { item ->
-//            when (item.itemId) {
-//                R.id.navigationHome -> {
-//                    //切换到首页
-//                    mBind.mainViewPager.setCurrentItem(0, false)
-//                }
-//                R.id.navigationUser -> {
-//                    //切换到个人中心
-//                    mBind.mainViewPager.setCurrentItem(3, false)
-//                }
-//            }
-//            true
-//        }
+        mBind.mainNavigation.setOnItemSelectedListener { item ->
+            when (item.itemId) {
+                R.id.menu_tab1 -> {
+                    //切换到首页
+                    mBind.mainViewPager.setCurrentItem(0, false)
+                }
+                R.id.menu_tab2 -> {
+                    //切换到个人中心
+                    mBind.mainViewPager.setCurrentItem(1, false)
+                }
+            }
+            true
+        }
     }
 
     override fun showToolBar() = false

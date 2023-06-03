@@ -4,6 +4,7 @@ import android.util.SparseArray
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentActivity
 import androidx.viewpager2.adapter.FragmentStateAdapter
+import com.ls.entertainmentbox.ui.fragment.ComicsFragment
 import com.ls.entertainmentbox.ui.fragment.VideoFragment
 
 
@@ -21,7 +22,7 @@ class MainAdapter(fa: FragmentActivity) : FragmentStateAdapter(fa) {
 
     init {
         fragments.put(PAGE_ONE, VideoFragment())
-        fragments.put(PAGE_TWO, VideoFragment())
+        fragments.put(PAGE_TWO, ComicsFragment())
 //        fragments.put(PAGE_THREE, VideoFragment())
 //        fragments.put(PAGE_FOUR, UIFragment())
 //        fragments.put(PAGE_FIVE, BarFragment())

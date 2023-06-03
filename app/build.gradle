@@ -46,8 +46,11 @@ dependencies {
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
 
-    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.2.0'
-    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.2.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
     kapt "com.github.liujingxing.rxhttp:rxhttp-compiler:3.0.2"
     implementation project(path: ':helper')
+
+
+    implementation 'cn.jzvd:jiaozivideoplayer:7.7.2.3300'
 }

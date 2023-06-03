@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">EntertainmentBox</string>
-    <string name="bottom_name1">首页</string>
-    <string name="bottom_name2">抢拍中心</string>
-    <string name="bottom_name3">我的</string>
+    <string name="bottom_name1">电影</string>
+    <string name="bottom_name2">漫画</string>
+    <string name="bottom_name3">小说</string>
 
 
 

@@ -8,6 +8,7 @@ pluginManagement {
         maven {
             url 'https://jitpack.io'
         }
+        maven { url "https://maven.aliyun.com/repository/public" } //jcenter & central
     }
 }
 dependencyResolutionManagement {
@@ -20,6 +21,7 @@ dependencyResolutionManagement {
         maven {
             url 'https://jitpack.io'
         }
+        maven { url "https://maven.aliyun.com/repository/public" } //jcenter & central
     }
 }
 rootProject.name = "EntertainmentBox"

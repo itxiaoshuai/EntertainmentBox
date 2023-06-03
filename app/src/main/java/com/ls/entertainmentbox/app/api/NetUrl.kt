@@ -14,9 +14,12 @@ object NetUrl {
     const val LOGIN = "user/login"
 
     //获取首页列表数据
-    const val HOME_LIST = "https://api.pingcc.cn/video/search/title/复仇者联盟/1/10"
+    const val HOME_LIST = "video/search/title/%s/%d/%d"
 
     //获取电影详情
     const val MOVIE_DETAIL = "videoChapter/search/%1\$s"
+
+    //获取漫画列表数据
+    const val COMICS_LIST = "comic/search/title/%s/%d/%d"
 
 }
